@@ -1,0 +1,23 @@
+cat <<EOL > .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+env/
+venv/
+*.log
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# ROS
+devel/
+build/
+
+# Misc
+.DS_Store
+*.swp
+EOL
